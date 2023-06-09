@@ -1,0 +1,151 @@
+.footer{
+    padding:10rem 5rem 1rem 5.2%;
+    background-color: transparent;
+    display:none;
+    opacity: 0;
+}
+
+.tudum-promo a{
+    color:#737373;
+    font-size: 1.5rem;
+    
+}
+
+.tudum-promo a:hover{
+    text-decoration: underline;
+}
+.footer .contact-us{
+    margin-top:6rem
+}
+
+.footer .contact-us a
+{
+    color:#737373;
+    font-size: 1.5rem;
+}
+
+.footer .contact-us a:hover{
+    text-decoration: underline;
+}
+
+
+.footer-links{
+    width: 100%;
+    margin-top:3rem;
+}
+
+.footer-links ul{
+    width: 80%;
+    list-style: none;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.footer-links ul li{
+    display:inline-block;
+    width: 17em;
+    padding:0 3em 1em 0;
+    color:#737373;
+    font-size: 1.35em;
+
+}
+.footer-links ul li a{
+    cursor:pointer;
+}
+.footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.combobox-btn{
+    margin-top:4em;
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.combobox-btn select{
+   background-color:#000;
+   width: 10em;
+   height: 3em;
+   color:#737373;
+   background-image: url("/images/language_icon_gray.png");
+   background-size: 1.4em;
+   background-repeat: no-repeat;
+   background-position:left;
+   text-align: center;
+   border: inset .8em transparent;
+   -webkit-appearance: none;
+   appearance: none;
+}
+
+@supports (-webkit-appearance: none) {
+    .combobox-btn select {
+      background-position-x: 0em; 
+    }
+  }
+
+.rightsReserved{
+    color:#737373;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+@media (max-width:1000px){
+
+
+    .footer-links ul li{
+        padding:0 2em 1em 0;
+        width: 16em;
+    }
+
+    .footer-links ul{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px)
+{
+
+    .footer-links ul li{
+        padding:0 3em 1em 0;
+        width: 13em;
+    }
+
+    .combobox-btn select{
+        text-align: center;
+        padding: 0 2.5em;
+    }
+
+}
+
+@media (max-width:500px)
+{
+    .footer-links ul{
+
+        justify-content: flex-start;
+        align-items:center;
+    }
+
+    .footer-links ul li{
+        padding:0 3em 1em 1em;
+        width: 8em;
+    }
+    
+
+}
+
+@media (max-width:300px)
+{
+    .footer-links ul li{
+        width: 6em;
+        font-size: 1em;
+        padding:0 3em 1em 3em;
+    }
+
+}

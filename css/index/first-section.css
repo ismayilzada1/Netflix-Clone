@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+.first-section{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:3rem;
+    padding: 27.8rem 0 18.4rem 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, .4) 60%, rgba(0, 0, 0, 0.9) 100%),url("/images/index-bg.jpg");
+    background-size: cover,cover;
+    background-position: center, 50% 80%;
+    background-repeat: no-repeat, repeat;
+    background-clip: border-box,border-box;
+}
+
+
+
+
+.first-section h1{
+    font-family: Poppins,sans-serif;
+    font-weight: 750;
+    letter-spacing: .5rem;
+    font-size: 4.25rem;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.first-section h4{
+    font-weight: normal;
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    padding:1.4rem 0;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.first-section h5{
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.section-form{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+
+
+
+.input-wrapper {
+    position: relative;
+    margin: 0 auto;
+    background-color:rgba(10,10,10,.8);
+    padding:.2rem .6rem;
+    border-radius:.5rem;
+    border:1px solid gray;
+    width: 40rem;
+  }
+.input-wrapper input {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: inherit;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent !important;
+    color: #ffffff;
+    margin-top:2rem;
+    margin-left:1rem;
+  }
+.floating-label {
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    font-size: 18px;
+    cursor: text;
+    color: #8c8c8c;
+    background-color:transparent;
+    transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease;
+    transition: font 0.1s ease, top 0.1s ease, transform 0.1s ease,
+      -webkit-transform 0.1s ease, -moz-transform 0.1s ease,
+      -o-transform 0.1s ease;
+  }
+
+input:focus ~ .floating-label,
+input:valid ~ .floating-label {
+  font-size: 11px;
+  top: 7px;
+}
+
+.input-wrapper:focus-within{
+    outline:2px solid white;
+}
+
+
+.red-btn-lg{
+    background-color:var(--red);
+    color:white;
+    font-family: Poppins,sans-serif;
+    border-radius:.3rem;
+    padding: 1rem 2.4rem;
+    cursor:pointer;
+    font-size: 2.4rem;
+}
+
+
+@media(max-width:1100px){
+    html{
+        font-size: 50% !important;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 39% !important;
+    }
+
+    .input-wrapper input{
+        font-size: 2rem;
+    }
+}
+

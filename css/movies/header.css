@@ -1,0 +1,93 @@
+.header{
+    background-color:#000;
+    display:none;
+    align-items: center;
+    justify-content: space-between;
+    padding:0% 2.5%;
+    position:sticky;
+    top:0;
+    z-index: 2;
+    opacity: 0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:.8rem 0rem;
+}
+
+.logo img{
+    height: 4rem;
+}
+
+.header .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items:center;
+
+}
+
+.header .container .title{
+    font-size: 1.3em;
+    color:white;
+}
+
+.red-btn{
+    padding:0.65rem 2.48rem;
+    background-color:#e50914;
+    color:white;
+    border-radius:.2rem;
+    cursor:pointer;
+}
+
+.black-btn{
+    padding:0.52rem 2.35rem;
+    background-color:transparent;
+    color:white;
+    border-radius:.2rem;
+    cursor:pointer;
+    border:1px solid #888;
+}
+
+.header .container .buttons{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: center;
+    gap:.8rem;
+   white-space: nowrap;
+}
+
+.black-btn:hover{
+    background-color:hsla(0,0%,59%,.3);
+}
+
+.red-btn:hover{
+    background-color:#f40612;
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+}
+
+
+
+
+
+@media (max-width:1000px){
+    .header .container .title{
+        display:none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width:600px){
+    .logo img{
+       content: url("../../../images/logo-mobile.png");
+    }
+
+    .header{
+        background-color:rgba(0,0,0,.75);
+    }
+}

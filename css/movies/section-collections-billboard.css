@@ -1,0 +1,20 @@
+
+.collections-billboard{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 73rem;
+    padding: 3% 3.2% 2% 3.2%;
+}
+
+.collections-billboard h3{
+    color:white;
+    font-size: 5rem;
+}
+
+.collections-billboard p{
+    color:white;
+    white-space: wrap;
+    font-size: 1.8rem;
+    width: 100%;
+}

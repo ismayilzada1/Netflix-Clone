@@ -1,0 +1,113 @@
+.collections-row .heading{
+    color:white;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1.3rem;
+}
+
+ .carousel-container{
+    background-color: transparent;
+    width: 100%;
+    overflow-x:hidden;
+    display:flex;
+    flex-wrap: nowrap;
+    gap:1rem;
+    align-items: flex-start;
+    scroll-behavior:smooth;
+}
+
+.collections-row{
+    position: relative;
+    padding: 2.6rem 3.2%;
+}
+
+.carousel-left-slide-btn{
+    position:absolute;
+    background-color:transparent;
+    height: calc(100% - 10rem);
+    width: 2%;
+    cursor:pointer;
+    align-items:center;
+    justify-content: center;
+    left:1%;
+    top:24.3%;
+    display:none;   /* will flex after right slide btn click*/
+    opacity:0;      /* will 1 after right slide btn click*/
+}
+
+.slide-icon{
+    height: 2rem;
+}
+
+.carousel-right-slide-btn{
+    position:absolute;
+    background-color:transparent;
+    height: calc(100% - 10rem);
+    width: 2%;
+    cursor:pointer;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    left:97%;
+    top:24.3%
+}
+.carousel-right-slide-btn img{
+    transform: scaleX(-1);
+    height: 2rem;
+}
+
+.carousel-item{
+    cursor:pointer;
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color:transparent;
+}
+.carousel-item img{
+    height: auto;
+}
+
+.movie-title{
+    color:white;
+    font-size: 1.6rem;
+    word-wrap: break-word;
+    width: 30rem;
+    text-align: center;
+}
+
+
+.blurred-section{
+    filter:blur(10px);
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.cutted-section{
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 20%, rgba(0,0,0,0));
+    -webkit-mask-image: -webkit-gradient(linear, right top, right bottom, color-stop(80%, rgba(0,0,0,0)), color-stop(0%, rgba(0,0,0,1)));
+}
+
+.last-carousel-section{
+    padding:1em 3.2%;
+    height: 15em !important;
+}
+
+
+  
+@media (max-width:40rem){
+    .movie-title{
+        font-size: 1.4rem;
+    }
+
+    .collections-row .heading{
+        font-size: 1.8rem;
+    }
+
+
+}

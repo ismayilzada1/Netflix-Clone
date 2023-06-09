@@ -1,0 +1,116 @@
+.faq-section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.faq-section h2{
+    color:white;
+    font-size: 4.5rem;
+    padding-top: 5rem;
+}
+
+
+.details-list{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:3rem 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap:1rem;
+}
+.details-list details{
+    background-color:#2D2D2D;
+    width: 80%;
+    color:white;
+    padding:.55rem 0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.details-list details summary::-webkit-details-marker {
+    display: none;
+  }
+
+
+.details-list details summary{
+    height: 100%;
+    width: 100%;
+    font-size: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items:center;
+    cursor:pointer;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.details-list details[open] summary{
+    border-bottom:2px solid black;  
+    padding-bottom: 1.1rem;
+}
+
+.details-list details[open] > summary .details-plus{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.details-title{
+    justify-self: start;
+    padding:0 2rem;
+    font-weight: 300;
+    word-wrap: normal;
+
+}
+.details-plus{
+    justify-self: end;
+    padding:0 2rem;
+    font-weight: 270;
+    user-select: none;
+    font-size: 5rem;
+
+}
+
+.details-list details p{
+    font-size: 2rem;
+    padding: 2rem 1.1rem 1rem; 
+    white-space: pre-line;
+    width: 100%;
+
+}
+
+
+
+.faq-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:3rem;
+    padding: 5rem 0;
+}
+.faq-form h5{
+    font-weight: 400;
+    font-family: Poppins,sans-serif;
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+    word-wrap: break-word;
+    text-align: center;
+    color:white;
+}
+
+.faq-form .section-form{
+    gap:3rem;
+}
+
+
+@media (max-width:60rem){
+    .faq-section h2{
+        text-align: center;
+    }
+}
