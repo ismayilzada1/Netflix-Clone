@@ -1,7 +1,7 @@
 # Netflix-Clone
 Netflix Website Clone using HTML &amp; CSS &amp; Jquery.
 
-Live Demo: https://ismayilzada-netflix.netlify.app
+Live Demo: [https://ismayilzada-netflix.netlify.app](https://ismayilzada-mahammad-netflix.netlify.app/)
 
 
 ![Screenshot (101)](https://github.com/ismayilzada1/Netflix-Clone/assets/130251565/da8c22fe-1db6-45a2-b838-24148fc96eda)
