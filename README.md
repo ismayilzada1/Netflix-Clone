@@ -6,7 +6,7 @@ Live Demo: [https://ismayilzada-netflix.netlify.app](https://ismayilzada-mahamma
 
 ![Screenshot (101)](https://github.com/ismayilzada1/Netflix-Clone/assets/130251565/da8c22fe-1db6-45a2-b838-24148fc96eda)
 
-![Screenshot (102)](https://github.com/ismayilzada1/Netflix-Clone/assets/130251565/0785cbd7-2f4e-4ded-86be-e88e59d77579)
+![Screenshot (119)](https://github.com/ismayilzada1/Netflix-Clone/assets/130251565/c5fb8ac0-0541-40c9-b8d6-b55b7a3feab8)
 
 ![Screenshot (103)](https://github.com/ismayilzada1/Netflix-Clone/assets/130251565/bcc8f8ae-bea1-4e77-ac35-34f358127ce7)
 
